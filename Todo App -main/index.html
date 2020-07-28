@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- heading -->
+    <div class="heading py-0 px-0 bg-black  mx-0">
+        <div class="container px-0 py-0 bg-black mx-0 ">
+            <div class="row py-0 px-0 bg-black ">
+                <div class="col-md-12 px-0 py-0 mx-0">
+                    <h1 style="text-align: center;border: 1px solid black;color: white;background-color: black;padding-top: 0px;margin-top: 0px;margin-right: -215px;margin-left: 10px; padding-right: 0px;">Todo List </h1>
+                </div>
+            </div>
+        </div>
+   </div>
+
+   <!-- inner part -->
+    <!-- <div class="todo outer" style="background-color: whitesmoke;"> -->
+        <div class="container text-center" >
+            <div class="row">
+                <div class="col-md-12" >
+                    <h1 class="head1 pt-4 "  style="font-family: 'Times New Roman', Times, serif;border: 1px solid burlywood;background-color: transparent;" > Welcome in Todo List Application</h1>
+                </div>
+                
+                    <div class="todo-inner" >
+                    <div class="row">
+                        <div class="col-md-12  text-center" style="text-align: center;">
+                            
+                            <input class="form-control" required style="width: 60%;display: inline-block;margin-right: 5px;margin-left: -20px;" type="text"  name="" placeholder="Enter todo" id="todo-item">
+                            <input type="hidden" id="=saveindex">
+                            <button type="button" onclick="addTodo()" style="display: inline;" class="btn btn-success" id="addtask">AddItem</button>
+                            <button id="savetask" class="btn btn-success mr-sm-2"  style="display:none;" >Save</button>
+                            <button onclick="deleteAll()" class="btn btn-danger"  >Delete All</button> 
+                            
+                              
+                        
+                        </div>
+                                 
+
+                        <div>
+                            <div class="row">
+                                <div class="col-md-12">
+
+                                    <ol id="list" class="list mt-3 mb-0" style="text-align: center;"> </ol>
+
+                            </div>
+
+                            
+                                 
+                              </div>
+
+                        </div>
+
+                    </div>
+
+                
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <style>
+        body{
+            text-align: center;
+            background-image: url('bg\ 1.jpg');
+        }
+        
+        /* .btn{
+            background-color: burlywood;
+        } */
+    </style>
+
+
+
+    <!-- <div >
+        <input type="text" name=""placeholder="Enter todo" id="todo-item">
+        <input type="hidden" id="=saveindex">
+        
+        <button id="addtask" onclick="addTodo()">AddItem</button>
+        <button id="savetask" onclick="saveTodo()" style="display:none;" >Save</button>
+        <button onclick="deleteAll()">Delete All</button>
+    </div>
+    
+<div style="text-align: center;">
+    <ol id="list" style="text-align: center;">
+
+    </ol>
+</div>
+
+
+ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script src="app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
